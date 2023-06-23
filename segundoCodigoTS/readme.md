@@ -10,3 +10,6 @@ npx tsc --init
 "removeComments": ld";
 "rootDir": "./strue;
 "noImplicityAny": true;
+
+# adicionar script no package.json
+"start": "npx tsc && ./build/index.sj"
