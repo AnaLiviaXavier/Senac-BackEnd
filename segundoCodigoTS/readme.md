@@ -13,3 +13,4 @@ npx tsc --init
 
 # adicionar script no package.json
 "start": "npx tsc && ./build/index.sj"
+
