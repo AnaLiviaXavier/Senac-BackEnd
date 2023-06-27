@@ -1,16 +1,20 @@
 # criar arquivo de configuração do ts
 npx tsc --init
 
-# configurações no arquivo tsconfig.json
+# configurações adcionais no arquivo tsconfig.json
 
 "target": "es6";
 "module": "commonjs";
 "sourceMap": true;
-"outDir": "./buirc";
+"outDir": "./build";
 "removeComments": ld";
-"rootDir": "./strue;
+"rootDir": "./src;
 "noImplicityAny": true;
 
-# adicionar script no package.json
-"start": "npx tsc && ./build/index.sj"
+# substituir "test..." no package.json por
+"start": "npx tsc && node ./build/nomeArquivo.js"
+
+# para executar no terminal
+npm start
+
 

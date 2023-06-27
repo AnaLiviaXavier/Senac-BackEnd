@@ -8,4 +8,4 @@ npm init -y
 npm i -g typescript
 
 # transpilar o código ts
-npx tsc index.ts
+npx tsc nomeArquivo.ts
