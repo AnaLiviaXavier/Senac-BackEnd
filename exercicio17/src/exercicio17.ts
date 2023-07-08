@@ -37,7 +37,7 @@ function cpfValidation(cpf:string):boolean{
      let total = 0
      let restForFirstDv:number
      for(let i:number =1;i<=9;i++){
-         total = total + cpfSplit.substring(i -1,i)*(11-i)
+         total = total + Number(cpfSplit.substring(i -1,i))*(11-i)
          
 }
 restForFirstDv= (total % 11)
